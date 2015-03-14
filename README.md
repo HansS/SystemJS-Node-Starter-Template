@@ -40,6 +40,7 @@ The files
 
 * main.js - the entryfile that contains the SystemJS bootstraper.
 * app.js - is the real entrypoint for your app (after main.js)
+* greeter.js - an ES6 module defining a simple ES6 class called Greeter.
 
 Notes
 ----
