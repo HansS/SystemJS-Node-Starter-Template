@@ -8,14 +8,14 @@ Learn ES6: http://babeljs.io/docs/learn-es6/
 Features
 ----
 * Uses SystemJS for module loading.
-* Bundles Babel transpiler to enable the ES6 features.
+* Bundles the Babel transpiler to enable the ES6 features.
 
 Getting Started
 ----
 
 Assuming that you already have installed Node.js (and Git, of course).
 
-Clone this repository
+Clone this repository:
 
     git clone https://github.com/robertsundstrom/SystemJS-Node-Starter-Template.git
     
@@ -39,11 +39,11 @@ The files
 ----
 
 * main.js - the entryfile that contains the SystemJS bootstraper.
-* app.js - is the entrypoint for your app. (The real entrypoint)
+* app.js - is the real entrypoint for your app (after main.js)
 
 Notes
 ----
-When creating ES6 modules, make sure to add following line in the top of your module files to make SystemJS detect them as ES6 code:
+When creating ES6 modules, make sure to add the following line in the top of your module files to make SystemJS detect them as ES6 code:
 
     "format es6";
 
