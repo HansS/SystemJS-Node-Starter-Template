@@ -1,0 +1,6 @@
+{
+  "ignore": ["public/*", "node_modules/*", babel/*],
+  "execMap": {
+    "js": "node"
+  }
+}
