@@ -1,6 +1,8 @@
 # SystemJS-Node-Starter-Template
 A simple project template for getting started with SystemJS and ECMAScript 6 syntax in Node.
 
+Read the "Notes" section for some important points.
+
 -----------
 
 Learn ES6: http://babeljs.io/docs/learn-es6/ 
