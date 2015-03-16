@@ -50,6 +50,8 @@ When creating ES6 modules, make sure to add the following line in the top of you
 
 If you have ES6 import-statements then this will not be required.
 
+Use require("...") to load Node standard library modules, or else SystemJS will not find them.
+
 Links
 ----
 
