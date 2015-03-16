@@ -1,8 +1,6 @@
 # SystemJS-Node-Starter-Template
 A simple project template for getting started with SystemJS and ECMAScript 6 syntax in Node.
 
-Read the "Notes" section for some important points.
-
 -----------
 
 Learn ES6: http://babeljs.io/docs/learn-es6/ 
@@ -14,6 +12,8 @@ Features
 
 Getting Started
 ----
+
+Please read the "Notes" section for some important points.
 
 Assuming that you already have installed Node.js (and Git, of course).
 
@@ -52,7 +52,7 @@ When creating ES6 modules, make sure to add the following line in the top of you
 
 If you have ES6 import-statements then this will not be required.
 
-Use require("...") to load Node standard library modules, or else SystemJS will not find them.
+Use the require("...") statement to load Node standard library modules, else they will not be loaded.
 
 Links
 ----
